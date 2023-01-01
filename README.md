@@ -10,6 +10,6 @@ Article : eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Den
 Website for read more: https://www.unite.ai/nvidias-ediffi-diffusion-model-allows-painting-with-words-and-more/
 
 
-All of Results Exists on content/demo folder  
+All of Results Exists on content/demo  and output_example  folder  
 
 
