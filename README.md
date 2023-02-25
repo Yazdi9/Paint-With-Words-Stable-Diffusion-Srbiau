@@ -12,8 +12,6 @@ Website for read more: https://www.unite.ai/nvidias-ediffi-diffusion-model-allow
 
 All of Results Exists on content/demo  and output_example  folder  
 
-# [Paint-with-Words](https://arxiv.org/abs/2211.01324), Implemented with [Stable diffusion](https://github.com/CompVis/stable-diffusion) using [Diffuers pipeline](https://github.com/huggingface/diffusers)
-
 [![CoRR preprint arXiv:2211.01324](http://img.shields.io/badge/cs.CL-arXiv%3A2211.01324-B31B1B.svg)](https://arxiv.org/abs/2211.01324)
 [![CI](https://github.com/shunk031/paint-with-words-pipeline/actions/workflows/ci.yaml/badge.svg)](https://github.com/shunk031/paint-with-words-pipeline/actions/workflows/ci.yaml)
 [![Release](https://github.com/shunk031/paint-with-words-pipeline/actions/workflows/deploy_and_release.yaml/badge.svg)](https://github.com/shunk031/paint-with-words-pipeline/actions/workflows/deploy_and_release.yaml)
@@ -220,19 +218,6 @@ with torch.autocast("cuda"):
 
 > $w' = w \log (1 + \sigma^2)  std (Q^T K)$
 
-# Example Notebooks
 
-You can view the minimal working notebook [here](./contents/notebooks/paint_with_words.ipynb) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MZfGaY3aQQn5_T-6bkXFE1rI59A2nJlU?usp=sharing)
-
-- [Painting with words](./contents/notebooks/paint_with_words.ipynb)
-
-- [Painting with words + Textual Inversion](./contents/notebooks/paint_with_words_textual_inversion.ipynb)
-
----
-
-# Acknowledgements
-
-- Balaji, Yogesh, et al. "ediffi: Text-to-image diffusion models with an ensemble of expert denoisers." [arXiv preprint arXiv:2211.01324](https://arxiv.org/abs/2211.01324) (2022).
-- cloneofsimo/paint-with-words-sd: Implementation of Paint-with-words with Stable Diffusion : method from eDiff-I that let you generate image from text-labeled segmentation map. https://github.com/cloneofsimo/paint-with-words-sd 
 
 
