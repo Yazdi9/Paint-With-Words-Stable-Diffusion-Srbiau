@@ -12,10 +12,6 @@ Website for read more: https://www.unite.ai/nvidias-ediffi-diffusion-model-allow
 
 All of Results Exists on content/demo  and output_example  folder  
 
-
-Unofficial [🤗 huggingface/diffusers](https://github.com/huggingface/diffusers)-based implementation of Paint-with-Words proposed by the paper *eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers*. 
-This implementation is based on [cloneofsimo/paint-with-words-sd](https://github.com/cloneofsimo/paint-with-words-sd).
-
 ## Subtle Control of the Image Generation
 
 <!-- #region -->
